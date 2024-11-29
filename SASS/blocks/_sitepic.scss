@@ -1,0 +1,95 @@
+.sitepic {
+}
+.container {
+}
+.sitepic__wrapper {
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  // display: flex;
+}
+.sitepic__box {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+  height: 473px;
+  background-image: url("../../assets/CTA\ Section.svg");
+}
+.sitepic__box-img {
+  width: 217px;
+  height: 217px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  
+}
+.sitepic__texts {
+  color: white;
+  width: 339px;
+  height: 170px;
+  
+}
+.sitepic__texts-title {
+  width: 339px;
+  height: 102px;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.0001em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.sitepic__texts--title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.0001em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 127px;
+  height: 17px;
+  top: 122px;
+  opacity: 0px;
+  margin-top: 20px;
+}
+.sitepic__texts-text {
+  color: grey;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 810px) {
+  .sitepic__box {
+    width: 748px;
+    height: 473px;
+    border: 1px;
+  }
+  
+  .sitepic__box-img {
+  }
+}
+@media only screen and (max-width: 480px) {
+  .sitepic__box {
+    width: 362px;
+    height: 439px;
+    border: 1px;
+    flex-direction: column;
+  }
+  
+  .sitepic__box-img{
+    width: 173px;
+    height: 173px;
+    border: 20px;
+    
+  }
+  .sitepic__texts{
+    width: 289px;
+    height: 143px;
+  }
+ 
+  
+}
